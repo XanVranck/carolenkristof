@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import {CountDown} from "ng2-date-countdown";
 import { InfoComponent } from './info/info.component';
-import { CountdownComponent } from './countdown/countdown.component';
 
 
 @NgModule({
@@ -14,8 +13,7 @@ import { CountdownComponent } from './countdown/countdown.component';
     AppComponent,
     HeaderComponent,
     CountDown,
-    InfoComponent,
-    CountdownComponent
+    InfoComponent
   ],
   imports: [
     BrowserModule,

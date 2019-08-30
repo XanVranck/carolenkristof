@@ -1,0 +1,61 @@
+.countdown-img{
+    height: 500px;
+    float: right;
+}
+
+.countdown {
+    width: 100%;
+    background: white url('../../assets/auto.png') no-repeat fixed right;
+    background-size: 50%;
+    height: 400px;
+}
+
+.countdown-body{
+    margin: auto;
+    width: 50%;
+    padding-top: 25px;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+}
+
+h2 {
+    color: #f2bfc6;
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.countdown-p{
+    color: black;
+    width: 80px;
+    height: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 5px;
+    font-size: 50px;
+}
+
+.countdown-text{
+    color: white;
+    width: 80px;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 40px;
+    }
+
+    .countdown-body{
+        width: 80%;
+    }
+
+    .countdown {
+        background-size: 170%;
+    }
+}
