@@ -3,20 +3,15 @@
     width: 50%;
 }
 
-.info-border {
-    border-bottom-style: solid;
-    border-color: #F5F5F5;
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
-    .container {
+    .inner-container {
         display: flex; /* or inline-flex */
-        flex-direction: row;
-        margin-top: 20px;
-        margin-bottom: 20px;
-
-        .inner-container {
-            display: flex; /* or inline-flex */
-            flex-direction: column;
-        }
+        flex-direction: column;
     }
 }
 
