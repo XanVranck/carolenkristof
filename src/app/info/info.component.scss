@@ -1,13 +1,19 @@
 .info-body{
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
 }
 
 .container {
-    display: flex; /* or inline-flex */
+    display: flex;
     flex-direction: row;
     margin-top: 20px;
     margin-bottom: 20px;
+    /* display: block; */
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 50%;
 
     .inner-container {
         display: flex; /* or inline-flex */
@@ -22,13 +28,14 @@
 .info-p {
     color: black;
     text-align: left;
-    margin: 5px;
+    margin: 0px;
     font-size: 20px;
+    width: 150px;
 }
 
 .info-img{
-    width: 12%;
     margin: 5px;
+    width: 16%;
 }
 
 @media only screen and (max-width: 600px) {
