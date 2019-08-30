@@ -3,17 +3,25 @@
     width: 50%;
 }
 
-.container {
-    display: flex; /* or inline-flex */
-    flex-direction: row;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.info-border {
+    border-bottom-style: solid;
+    border-color: #F5F5F5;
+
+    .container {
+        display: flex; /* or inline-flex */
+        flex-direction: row;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        .inner-container {
+            display: flex; /* or inline-flex */
+            flex-direction: column;
+        }
+    }
 }
 
-.inner-container {
-    display: flex; /* or inline-flex */
-    flex-direction: column;
-    width: 40%;
+.spacer {
+    width: 100px;
 }
 
 .info-p {
@@ -24,8 +32,7 @@
 }
 
 .info-img{
-    width: 5%;
-    height: 100%;
+    width: 12%;
     margin: 5px;
 }
 
