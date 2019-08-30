@@ -8,12 +8,14 @@
 .countdown-margin{
     margin: auto;
     width: 50%;
+    text-align: center;
 }
 
 .container {
     display: flex; /* or inline-flex */
     flex-direction: row;
     padding: 0px;
+    max-width: 540px;
 }
 
 h2 {
