@@ -56,14 +56,26 @@ h2 {
 
 @media only screen and (max-width: 600px) {
     h2{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .countdown-body{
         width: 80%;
     }
 
-    .countdown {
-        background-size: 170%;
+    .space {
+        margin: 1px; 
+    }
+
+    .space-text {
+        margin: 0px; 
+    }
+
+    .countdown-p{
+        border-radius: 0%;
+    }
+
+    .container {
+        max-width: 400px;
     }
 }
